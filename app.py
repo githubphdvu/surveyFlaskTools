@@ -4,6 +4,14 @@
 # pip3 install flask_debugtoolbar
 # pip3 freeze > requirements.txt
 # flask run --reload
+
+# git init
+# nano .gitignore (add venv/ , __pycache__/)
+# git add .
+# git commit -m '...'
+# git remote add origin https://github...
+# git push -u origin main
+
 from flask import Flask, session, request, render_template, redirect, make_response, flash
 from flask_debugtoolbar import DebugToolbarExtension
 
